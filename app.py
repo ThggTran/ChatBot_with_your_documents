@@ -80,7 +80,7 @@ def load_embed_model():
 
 def load_llm_model():
   import os
-  os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY") or "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"
+  os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY") or "your-api-key"
 
   llm = ChatOpenAI(
       openai_api_key=os.environ["OPENAI_API_KEY"],
